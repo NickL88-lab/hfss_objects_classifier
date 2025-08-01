@@ -2,9 +2,9 @@
 
 This repository hosts a preliminary version of a deep learning-based classifier for electromagnetic simulation geometries, specifically targeting models exported from **HFSS (High Frequency Structure Simulator)**.
 
-## 🚧 Status: Demonstrator Only
+## Status: Demonstrator Only
 
-⚠️ **This is an early-stage demonstrator.**  
+**This is an early-stage demonstrator.**  
 At the moment, the classifier has been trained and tested using only **two object classes**:
 
 - `horn` (horn antennas)  
@@ -14,7 +14,7 @@ It is **not a production-ready tool**, but rather a proof of concept aimed at ex
 
 ---
 
-## 🧠 Project Goals
+## Project Goals
 
 The main objective of this project is to investigate whether simple 3D geometry descriptors, possibly derived from HFSS-generated models, can be effectively used to train neural networks for classification purposes.
 
@@ -26,9 +26,11 @@ In particular, the long-term goal is to support **less experienced users** of HF
 
 This system could eventually act as a smart assistant to guide users in setting up correct and efficient electromagnetic simulations.
 
+<img width="1182" height="715" alt="download (1)" src="https://github.com/user-attachments/assets/d26e577d-9fb9-4839-87a6-d5f931b9026b" />
+
 ---
 
-## 📓 Notebook Overview
+## Notebook Overview
 
 A key part of the repository is a **Jupyter Notebook** that demonstrates the full classification pipeline, including:
 
@@ -43,7 +45,7 @@ The model was trained using **Google Colab**, which provides free GPU accelerati
 
 ---
 
-## 📁 Structure
+## Structure
 
 The repository currently contains:
 
@@ -54,7 +56,7 @@ The repository currently contains:
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 Clone the repository:
 
@@ -65,20 +67,11 @@ cd hfss_objects_classifier
 
 ---
 
-## 🔭 Next Steps
-Expand dataset to include more object classes
-
-Improve model robustness and generalization
-
-Integrate with full HFSS automation workflows
-
----
-
-## 📬 Contributions & Feedback
+## Contributions & Feedback
 Since this is a demonstrator, feedback and ideas for expansion or improvements are very welcome. Feel free to open issues or fork the project.
 
 ---
 
-## 📄 License
+## License
 This project is released under the MIT License.
 
